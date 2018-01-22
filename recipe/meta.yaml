@@ -10,8 +10,8 @@ package:
 source:
   fn: markdown_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/markdown_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/markdown/markdown_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/markdown_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/markdown/markdown_{{ version }}.tar.gz
   sha256: 538fd912b2220f2df344c6cca58304ce11e0960de7bd7bd573b3385105d48fed
 
 
