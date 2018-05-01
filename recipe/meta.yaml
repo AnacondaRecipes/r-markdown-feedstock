@@ -14,16 +14,10 @@ source:
     - {{ cran_mirror }}/src/contrib/Archive/markdown/markdown_{{ version }}.tar.gz
   sha256: 538fd912b2220f2df344c6cca58304ce11e0960de7bd7bd573b3385105d48fed
 
-
-  # patches:
-   # List any patch files here
-   # - fix.patch
-
 build:
   merge_build_host: True  # [win]
   # If this is a new build for the same version, increment the build number.
   number: 0
-
 
   # This is required to make R link correctly on Linux.
   rpaths:
